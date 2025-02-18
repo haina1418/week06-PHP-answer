@@ -28,6 +28,14 @@ $PI = 3.1416
 No output will be displayed. becauese the array does not have an element at index 3.
 
 #9  What are the key in $person array?
+$person = [
+    "firstname" => "John",
+    "lastname" => "Doe",  // Added value for lastname
+    "age" => 30,
+];
+$keys = array_keys($person);
+print_r($keys);
+
 
 #10 in PHP, how will you change the green into white colors?
 $hex[green] = '#fff'
@@ -35,4 +43,8 @@ $hex[green] = '#fff'
 #11 what is the output of echo $hex['red']
 #f00
 
-#12 
+#12 What is the output of echo $matrix[1][2];?
+
+#13 what is the output of  echo $people[0]['first_name'];?
+#14what is the output of echo $people[2]['email];?
+#15what is the output of var_dump($chunkedArray);?
