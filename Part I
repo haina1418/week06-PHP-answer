@@ -26,7 +26,13 @@ $PI = 3.1416
 
 #8 What is the output of echo $colors[3];?
 No output will be displayed. becauese the array does not have an element at index 3.
+
 #9  What are the key in $person array?
- #10 in PHP, how will you change the green into white colors?
+
+#10 in PHP, how will you change the green into white colors?
+$hex[green] = '#fff'
+
 #11 what is the output of echo $hex['red']
+#f00
+
 #12 
