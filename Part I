@@ -1,1 +1,19 @@
+#1 What is the the ouptut of print_r($person);?
+ Person (
+  [name] => Alice
+  [age] => 25
+)
+#2 What is the output of var_dump($person);?
+object(Person)#1 (2) {
+  ["name]=>string(5) "Alice
+  [age]=>NULL
+}
+#3 What is the output of var_dump($cashOnHand):?
+float(10.5)
+
+#4 What character is used to concatenate strings?
+#5 what is the output of echo HOST;?
+#6 HOW WILL YOU DEFINE IN php THE VARIABLE pi WITH VALUE 3.1416?
+#7 #What is the output of echo $numbers[3] + $numbers[4];?
+#8 What is the output of echo $colors[3];?
 
