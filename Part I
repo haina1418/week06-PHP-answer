@@ -54,5 +54,62 @@ echo $matrix[1][2];
 output 6
 
 #13 what is the output of  echo $people[0]['first_name'];?
+$people = [
+    [
+        "first_name" => "John",
+        "last_name" => "Doe",
+        "email" => "john@example.com"
+    ],
+    [
+        "first_name" => "Jane",
+        "last_name" => "Doe", 
+        "email" => "jane@example.com"
+    ]
+];
+out put John
+
 #14what is the output of echo $people[2]['email];?
+$people = [
+    [
+        "first_name" => "John",
+        "last_name" => "Doe",
+        "email" => "john.doe@example.com"
+    ],
+    [
+        "first_name" => "Jane",
+        "last_name" => "Doe", 
+        "email" => "jane.doe@example.com"
+    ]
+];
+
+if (isset($people[2]['email'])) {
+    echo $people[2]['email'];
+} else {
+    echo "Email not found";
+}
+output Email not found
+
 #15what is the output of var_dump($chunkedArray);?
+array(4) {
+  [0] =>
+  array(2) {
+    [0] => string(4) "kiwi"
+    [1] => string(5) "apple"
+  }
+  [1] =>
+  array(2) {
+    [0] => string(6) "banana"
+    [1] => string(6) "orange"
+  }
+  [2] =>
+  array(2) {
+    [0] => string(5) "grape"
+    [1] => string(5) "mango"
+  }
+  [3] =>
+  array(2) {
+    [0] => string(10) "raspberry"
+    [1] => string(4) "kiwi"
+  }
+}
+
