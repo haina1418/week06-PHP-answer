@@ -12,7 +12,7 @@ object(Person)#1 (2) {
 float(10.5)
 
 #4 What character is used to concatenate strings?
-
+. +
 #5 what is the output of echo HOST;?
 localhost
 
@@ -20,6 +20,13 @@ localhost
 $PI = 3.1416
 
 #7 #What is the output of echo $numbers[3] + $numbers[4];?
+ $numbers = [1, 2, 3, 4, 5]; 
+ echo $numbers[3] + $numbers[4];
+ #output 9
 
 #8 What is the output of echo $colors[3];?
-
+No output will be displayed. becauese the array does not have an element at index 3.
+#9  What are the key in $person array?
+ #10 in PHP, how will you change the green into white colors?
+#11 what is the output of echo $hex['red']
+#12 
