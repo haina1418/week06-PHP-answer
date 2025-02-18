@@ -12,8 +12,14 @@ object(Person)#1 (2) {
 float(10.5)
 
 #4 What character is used to concatenate strings?
+
 #5 what is the output of echo HOST;?
+localhost
+
 #6 HOW WILL YOU DEFINE IN php THE VARIABLE pi WITH VALUE 3.1416?
+$PI = 3.1416
+
 #7 #What is the output of echo $numbers[3] + $numbers[4];?
+
 #8 What is the output of echo $colors[3];?
 
